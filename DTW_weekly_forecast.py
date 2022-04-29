@@ -26,7 +26,7 @@ def dtw_weekly(df, start_date, end_date, sear_start_year, sear_start_month, sear
                     
     
     Returns:
-        1. Top 30 매칭 구간 추출
+        1. Top 30 매칭 구간 추출 (YoY 가격 변동률 기반)
         2. Top 3 매칭 구간 시각화 
         3. 향후 12주 흐름 도출
         4. Top 30 매칭 구간을 활용한 향후 12기간-1기간 가격 변동률 분포
