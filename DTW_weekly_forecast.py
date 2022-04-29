@@ -33,7 +33,7 @@ def dtw_weekly(df, start_date, end_date, sear_start_year, sear_start_month, sear
         
     """
     # 필요 패키지 로드
-    import kpds as k
+    
     import numpy as np
     import pandas as pd  
     import fastdtw.fastdtw as fastdtw
